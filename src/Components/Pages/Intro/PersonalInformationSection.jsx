@@ -14,7 +14,7 @@ const PersonalInformationSection = ({ isMobile }) => {
     >
       <div className={!isMobile && "main-textContainer"}>
         <Animate>
-          <CustomTitle level={1} className="align-center">
+          <CustomTitle level={isMobile ? 2 : 1} className="align-center">
             LET ME INTRODUCE MYSELF
           </CustomTitle>
         </Animate>

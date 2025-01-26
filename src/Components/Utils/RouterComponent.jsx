@@ -1,9 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import sharedDataHOC from "../HOC/SharedDataHOC";
+
 import Intro from "../Pages/Intro";
 import Experience from "../Pages/Experience";
 import About from "../Pages/About";
-import sharedDataHOC from "../HOC/SharedDataHOC";
 import Contact from "../Pages/Contact";
 
 const RouterComponent = ({ isMobile }) => {

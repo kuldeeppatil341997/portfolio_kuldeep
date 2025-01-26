@@ -16,7 +16,7 @@
 .main-layout {
   overflow: hidden;
   width: 100%;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 .main-header {
@@ -53,7 +53,7 @@
 }
 
 .containerHeight {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* below two classes are being used for pages where screen is split into two half,
@@ -93,5 +93,5 @@
 }
 
 .marginTop100 {
-  margin-top: 100px;
+  margin-top: 30px;
 }

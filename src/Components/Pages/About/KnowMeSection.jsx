@@ -40,8 +40,8 @@ const KnowMeSection = ({ isMobile }) => {
       <div className={isMobile ? "marginTop100" : "main-imageContainer"}>
         <Animate>
           <Image
-            width={500}
-            height={350}
+            width={350}
+            height={250}
             src={IMAGES_PATH.about_knowMe}
             preview={false}
           />

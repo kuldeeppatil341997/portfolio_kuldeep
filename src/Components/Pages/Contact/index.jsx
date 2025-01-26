@@ -1,5 +1,5 @@
 import { Button, Flex, message } from "antd";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CustomTitle from "../../CustomComponents/CustomTitle";
 import NoteSection from "./NoteSection";
 import CustomInput from "../../CustomComponents/CustomInput";
@@ -65,6 +65,10 @@ const Contact = ({ sharedData }) => {
       );
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+ 
   return (
     <Flex className="containerHeight" justify="center" align="center" vertical>
       <div className="align-center marginTop20">

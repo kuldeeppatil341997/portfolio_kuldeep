@@ -20,18 +20,6 @@ function App() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  useEffect(() => {
-    const handleBeforeUnload = () => {
-      window.scrollTo(0, 0);
-    };
-
-    window.addEventListener("beforeunload", handleBeforeUnload);
-
-    return () => {
-      window.removeEventListener("beforeunload", handleBeforeUnload);
-    };
-  }, []);
-
   const onNavClick = () => {
     setSelectedKeys([]);
   };

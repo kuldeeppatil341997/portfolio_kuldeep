@@ -2,24 +2,24 @@ import { Drawer, Menu } from "antd";
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import {
-  HomeOutlined,
   UserOutlined,
-  SettingOutlined,
   CloseOutlined,
   MenuOutlined,
+  LaptopOutlined,
+  MessageOutlined,
 } from "@ant-design/icons";
 import "./Navbar.css";
 
 const menuItems = [
-  { key: "/about", icon: <HomeOutlined />, label: "About" },
+  { key: "/about", icon: <UserOutlined />, label: "About" },
   {
     key: "/experience",
-    icon: <UserOutlined />,
+    icon: <LaptopOutlined />,
     label: "Experience",
   },
   {
     key: "/contact",
-    icon: <SettingOutlined />,
+    icon: <MessageOutlined />,
     label: "Contact",
   },
 ];
