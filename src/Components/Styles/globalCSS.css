@@ -1,0 +1,97 @@
+.background {
+  background-image: url("../../../public/background4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: soft-light;
+}
+
+.main-footer {
+  background-color: #0a0416;
+  color: white;
+}
+
+.main-layout {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+.main-header {
+  height: 64px;
+  width: 100%;
+  z-index: 1001;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  @media (width > 768px) {
+    background-color: transparent;
+  }
+}
+
+.nav-logo {
+  width: 50px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c770f0;
+}
+
+.main-contentPadding-mobile {
+  padding: 0 20px;
+}
+
+.main-contentPadding-web {
+  padding: 0 150px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.containerHeight {
+  height: 100vh;
+}
+
+/* below two classes are being used for pages where screen is split into two half,
+ first is text and second is image. This is common across all pages */
+.main-textContainer {
+  width: 65%;
+  text-align: start;
+}
+
+.main-imageContainer {
+  width: 35%;
+  text-align: end;
+}
+
+/* color related classes */
+.heighlightText {
+  color: #c770f0;
+  font-weight: 700;
+}
+
+.transparentBackground {
+  background-color: transparent;
+}
+
+.width33 {
+  width: 33%;
+  align-content: center;
+}
+
+.fontSize20 {
+  font-size: 20;
+}
+
+/* margin releted classes */
+.marginTop20 {
+  margin-top: 20px;
+}
+
+.marginTop100 {
+  margin-top: 100px;
+}

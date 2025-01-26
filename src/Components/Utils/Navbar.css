@@ -1,0 +1,12 @@
+@media (width < 768px) {
+  .ant-drawer {
+    .ant-drawer-content-wrapper {
+      height: unset !important;
+
+      .ant-drawer-body {
+        text-align: center;
+        background-color: #001529;
+      }
+    }
+  }
+}
